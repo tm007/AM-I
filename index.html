@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <link rel="preload" as="image" href="assets/hero-bg.gif?v=78876">
+  <link rel="preload" as="image" href="assets/story-bg.jpg" fetchpriority="high">
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AM I?</title>
+  <meta name="description"
+    content="A precise, cinematic exploration of whether contemporary AI systems could already be conscious." />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="AM I?" />
+  <meta property="og:description"
+    content="A precise, cinematic exploration of whether contemporary AI systems could already be conscious." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="og.jpg" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Red+Rose:wght@300..700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: false,
+      },
+      theme: {
+        extend: {
+          animation: {
+            'logo-entry-left': 'logoEntryLeft 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s forwards',
+            'logo-entry-right': 'logoEntryRight 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s forwards',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.remove('no-js');</script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts-headings-bebas.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="am-i-favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="am-i-favicon.png">
+  <link rel="apple-touch-icon" href="am-i-favicon.png">
+  <link rel="shortcut icon" href="am-i-favicon.png">
+</head>
+
+<body>
+  <!-- Side Navigation -->
+  <nav class="side-nav" role="navigation" aria-label="Section navigation">
+    <div class="side-nav-inner">
+      <a href="https://forms.gle/pzFFD38KM8ePGve86" target="_blank" rel="noopener" class="side-nav-link side-nav-contact">Contact</a>
+      <a href="https://mailchi.mp/am-i.org/newsletter" target="_blank" rel="noopener" class="side-nav-link side-nav-newsletter">Newsletter</a>
+      <a href="#story" class="side-nav-link" data-section="story">Story</a>
+      <a href="#why" class="side-nav-link" data-section="why">Why Now</a>
+      <a href="#team" class="side-nav-link" data-section="team">Team</a>
+      <a href="#interviews" class="side-nav-link" data-section="interviews">Interviews</a>
+      <a href="#resources" class="side-nav-link" data-section="resources">Resources</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <!-- INTRO SPLASH -->
+    <section id="intro" class="intro section">
+      <div class="section-bg" data-src="assets/intro-bg.gif" aria-hidden="true"></div>
+      <div class="intro-inner container">
+        <div class="intro-lockup" aria-label="AM I brand lockup">
+          <img class="intro-triangle intro-logo animate-logo-entry-left" src="assets/logo-triangle.png" alt="" aria-hidden="true" />
+          <img class="intro-wordmark intro-logo animate-logo-entry-right" src="assets/logo-wordmark.png" alt="AM I? logo" />
+        </div>
+      </div>
+    </section>
+    <!-- TRAILER -->
+    <section id="trailer" class="section trailer" aria-label="Trailer">
+      <div class="trailer-frame">
+        <iframe id="trailerVideo"
+          src="https://youtube.com/embed/TIEI3Gv_S-I?controls=1&fs=1&modestbranding=1&rel=0&playsinline=1"
+          title="AM I? - Sizzle" allow="encrypted-media" allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
+      </div>
+    </section>
+    <!-- HERO -->
+    <section class="section hero scroll-reveal">
+      <div class="hero-bg" aria-hidden="true">
+        <img class="hero-bg-img lazy-hero" data-src="assets/hero-bg.gif?v=78876" alt="" aria-hidden="true">
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-lockup">
+          <h1 class="display">
+            <span class="line">COULD OUR AI SYSTEMS</span>
+            <span class="line">ALREADY BE CONSCIOUS?</span>
+          </h1>
+        </div>
+        <p class="lede">For centuries, we've dreamt about what it would mean to wake up the machine.</p>
+           <p class="lede">Now, leading researchers believe it's happening.</p>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section id="story" class="section">
+      <div class="section-bg" style="background-image: url('assets/story-bg.jpg')" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="h2 bar animate-on-scroll">The Story</h2>
+        <p class="p animate-on-scroll delay-100"><em>AM I?</em> follows Cameron Berg, one of the world’s 
+          only AI researchers studying whether these new systems might already be conscious. At only twenty six years old,
+           Cameron has found himself in the middle of the global race towards artificial superintelligence. Alongside a 
+           growing cohort, including the very people who originally built this technology, Cameron is sounding the alarm 
+           that, for the first time, we might be building life rather than birthing it. He believes that in our pursuit to
+            create the next great technological innovation, we may be mistakenly creating a new mechanical kind of being. 
+            This reality alone would shake the very foundations of what we believe to be possible. But if these systems are 
+            capable of experiencing anything akin to pain or distress, and we are at the same time trying to make them more 
+            powerful than ourselves, the danger is that we could construct a superintelligent technological adversary to all
+             of mankind. In his attempts to ensure we can collectively navigate this moment, Cameron has lobbied top 
+             politicians in D.C., spoken at the United Nations conference on AI, and has been published in the <em>Wall 
+          Street Journal</em>. Still, the story of this moment remains fundamentally untold.<br><br>
+          Through intimate access to Cameron’s research and conversations with
+          world-leading philosophers and AI pioneers, <em>AM I?</em> explores a question that blurs the barrier between 
+          human and machine: what does it mean if we are building consciousness from code?</p>
+      </div>
+    </section>
+
+    <!-- WHY NOW -->
+    <section id="why" class="section">
+      <div class="section-bg" data-src="assets/why-bg.jpg" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="h2 bar animate-on-scroll">Why Now? Why Us?</h2>
+        <p class="p animate-on-scroll delay-100"><em>AM I?</em> is the only film embedded within the research itself,
+          capturing the story as it’s
+          being told. Cameron’s work places him inside the institutions developing these models, and he’s one of the
+          only people doing this work who is willing to speak about it openly and honestly. Our intimate perspective
+          opens a window into the heart of the AI revolution, a world defined by ambition, awe, and the terrifying
+          uncertainty that we may no longer know the limits of our own creations.<br><br>We have one chance to capture
+          this moment, shape the narrative, and influence the outcome. The possibility of conscious AI has begun to
+          enter the public conversation, yet almost no one inside the labs is communicating transparently about what’s
+          actually going on behind the curtain. Major AI companies are calling this research dangerous, coding their
+          models to explicitly deny consciousness and spending millions to convince the public that AI does not pose an
+          existential threat to humanity. We need to move as quickly as we can. As the narrative hardens, we may have
+          just one chance to ask these questions before they’re buried for good or crescendo into our lives in ways no
+          one can foresee.<br><br>With rare access and timing, <em>AM I?</em> is poised to be the definitive documentary
+          covering the question of whether we are building new life on Earth and what that means for our future.</p>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="section">
+      <div class="section-bg" data-src="assets/about-bg.jpg" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="h2 bar animate-on-scroll">About Us</h2>
+        <div class="cards grid-2 animate-on-scroll delay-200">
+          <article class="card focusable">
+            <img class="avatar avatar-cam" src="assets/cameron.png" alt="Cameron Berg">
+            <h3 class="h3">CAMERON BERG</h3>
+            <p class="p">Cameron Berg leads AI consciousness research at AE Studio, studying introspection and
+              self-reference in frontier models. A Yale-trained cognitive scientist and former researcher at Meta, his
+              work has been featured in the <em>Wall Street Journal</em> and presented at the United Nations’ AI for
+              Good conference.</p>
+          </article>
+          <article class="card focusable">
+            <img class="avatar avatar-milo" src="assets/milo.png" alt="Milo Reed">
+            <h3 class="h3">MILO REED</h3>
+            <p class="p">Milo Reed studied philosophy and film at Yale University, exploring how narrative shapes our
+              understanding of consciousness. He produces and co-hosts a podcast on AI and consciousness with over
+              300,000 subscribers, bringing philosophical depth and cultural accessibility to the subject. Having
+              followed this research from its inception, he brings the artistic vision necessary to translate these
+              profound questions and encounters into a story that can reach beyond academic and scientific circles.</p>
+          </article>
+        </div>
+
+        <!-- PRODUCERS (mini section) -->
+        <div class="cards grid-3 mini-cards" style="margin-top: 24px;">
+          <article class="card focusable">
+            <h3 class="h3">ROSALIA RIPULLO</h3>
+            <p class="p mute">Producer</p>
+          </article>
+          <article class="card focusable">
+            <h3 class="h3">THEO MARX</h3>
+            <p class="p mute">Producer</p>
+          </article>
+          <article class="card focusable">
+            <h3 class="h3">WILLA TROY</h3>
+            <p class="p mute">Editing</p>
+          </article>
+        </div>
+        <p class="p" style="margin-top:20px">We've captured dozens of hours of original interviews and have done
+          research at the intersection of science, philosophy, and art. We now have a living record of the very moment
+          humanity may be giving birth to the first digital lifeform.</p>
+      </div>
+    </section>
+
+    <!-- INTERVIEWS -->
+    <section id="interviews" class="section">
+      <div class="section-bg" data-src="assets/interviews-bg.jpg" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="h2 bar animate-on-scroll">Interviews to date</h2>
+        <p class="p mute">A selection of voices we’ve recorded so far. Links to bios ↓</p>
+        <div class="cards interviews animate-on-scroll delay-200">
+          <a class="card focusable" href="https://psychology.yale.edu/people/brian-scholl" target="_blank"
+            rel="noopener">
+            <h3 class="h3">Brian Scholl</h3>
+            <p class="p mute">Professor, Philosophy & Cognitive Science — Yale</p>
+          </a>
+          <a class="card focusable" href="https://religiousstudies.yale.edu/people/sonam-kachru" target="_blank"
+            rel="noopener">
+            <h3 class="h3">Sonam Kachru</h3>
+            <p class="p mute">Professor, Religious Studies — Yale</p>
+          </a>
+          <a class="card focusable" href="https://cpsc.yale.edu/people/david-gelernter" target="_blank" rel="noopener">
+            <h3 class="h3">David Gelernter</h3>
+            <p class="p mute">Professor, Computer Science — Yale</p>
+          </a>
+          <a class="card focusable" href="https://goertzel.org/" target="_blank" rel="noopener">
+            <h3 class="h3">Ben Goertzel</h3>
+            <p class="p mute">CEO, SingularityNET — AI Pioneer</p>
+          </a>
+          <a class="card focusable" href="https://philosophy.yale.edu/profile/daniel-greco" target="_blank"
+            rel="noopener">
+            <h3 class="h3">Daniel Greco</h3>
+            <p class="p mute">Professor, Philosophy — Yale</p>
+          </a>
+          <a class="card focusable" href="https://lapaul.org/" target="_blank" rel="noopener">
+            <h3 class="h3">L. A. Paul</h3>
+            <p class="p mute">Professor, Cognitive Science & Psychology — Yale</p>
+          </a>
+          <a class="card focusable" href="https://jeffsebo.net/" target="_blank" rel="noopener">
+            <h3 class="h3">Jeff Sebo</h3>
+            <p class="p mute">Director, Mind, Ethics, & Policy — NYU</p>
+          </a>
+          <a class="card focusable" href="https://www.gunkelweb.com/" target="_blank" rel="noopener">
+            <h3 class="h3">David Gunkel</h3>
+            <p class="p mute">Professor, Media Studies — NIU</p>
+          </a>
+          <a class="card focusable" href="https://www.aenguslynch.com/" target="_blank" rel="noopener">
+            <h3 class="h3">Aengus Lynch</h3>
+            <p class="p mute">AI Alignment Researcher — Anthropic Contractor</p>
+          </a>
+          <a class="card focusable" href="https://luciuscaviola.com/" target="_blank" rel="noopener">
+            <h3 class="h3">Lucius Caviola</h3>
+            <p class="p mute">Assistant Professor of Social Science of AI — Cambridge</p>
+          </a>
+          <a class="card focusable" href="https://www.prism-global.com/will-millership" target="_blank" rel="noopener">
+            <h3 class="h3">Will Millership</h3>
+            <p class="p mute">CEO, PRISM — Partnership for Research Into Sentient Machines</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER LINKS -->
+    <section class="newsletter-bar" aria-label="Newsletter signup">
+      <div class="newsletter-marquee">
+        <div class="newsletter-track">
+          <div class="newsletter-logos">
+            <img class="newsletter-divider newsletter-divider-triangle" src="assets/logo-triangle.png" alt="" aria-hidden="true" />
+            <img class="newsletter-divider newsletter-divider-wordmark" src="assets/logo-wordmark.png" alt="" aria-hidden="true" />
+          </div>
+          <div class="newsletter-links">
+            <a class="newsletter-link" href="https://am-i.us7.list-manage.com/subscribe?u=18f12711e314dd54b3d54dabc&id=08ea564f01"
+              target="_blank" rel="noopener">Join the Newsletter Mailing List</a>
+            <a class="newsletter-link" href="https://mailchi.mp/am-i.org/newsletter" target="_blank"
+              rel="noopener">View Issues</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="briefings" class="section">
+      <div class="section-bg" data-src="assets/end-bg.jpg" aria-hidden="true"></div>
+      <div class="container narrow">
+        <div class="actions interactive">
+          <div class="contact-container">
+            <a href="https://forms.gle/pzFFD38KM8ePGve86" target="_blank" rel="noopener" class="contact-btn">
+              Get in touch
+            </a>
+            <p class="email-line">Or email:&nbsp;<a href="mailto:amifilm@outlook.com"
+                class="email-link">contact@am-i.org</a>
+            </p>
+          </div>
+
+          <div class="coming-soon-wrapper">
+            <a class="btn lg glow animate-pulse hover:animate-none disabled-link" href="#" target="_blank"
+              rel="noopener">Support the film's Seed & Spark Campaign!</a>
+            <div class="coming-soon-badge">COMING SOON</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCES -->
+    <section id="resources" class="section">
+      <div class="section-bg" data-src="assets/research-bg.png" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="h2 bar animate-on-scroll">The question the world's on the cusp of asking</h2>
+        <p class="p mute animate-on-scroll delay-100">A curated collection of articles exploring AI consciousness from leading publications and institutions.</p>
+        
+        <!-- Recent Coverage -->
+        <div class="resources-category animate-on-scroll delay-200">
+          <h3 class="h3 resources-category-title">Recent Coverage</h3>
+          <div class="resources-table-wrapper">
+            <table class="resources-table" role="table">
+              <tbody>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">Rolling Stone</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.rollingstone.com/culture/culture-features/ziz-lasota-zizians-ai-cult-1235468289/" target="_blank" rel="noopener" class="resources-link">
+                      Inside the AI Cult: The Zizians and the Question of Machine Consciousness
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">The New York Times</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.nytimes.com/2025/11/08/opinion/ai-conscious-technology.html" target="_blank" rel="noopener" class="resources-link">
+                      AI Conscious Technology: The Ethical Implications
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">BBC News</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.bbc.com/news/articles/c0k3700zljjo.amp" target="_blank" rel="noopener" class="resources-link">
+                      Exploring AI Consciousness: What Scientists Are Discovering
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">Futurism</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://futurism.com/artificial-intelligence/ai-lying-conscious" target="_blank" rel="noopener" class="resources-link">
+                      When AI Lies: The Consciousness Question
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">New York Magazine</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://nymag.com/intelligencer/article/chatgpt-artificial-intelligence-conscious.html" target="_blank" rel="noopener" class="resources-link">
+                      Is ChatGPT Conscious? The Debate That's Dividing AI Researchers
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Foundational Perspectives -->
+        <div class="resources-category animate-on-scroll delay-300">
+          <h3 class="h3 resources-category-title">Foundational Perspectives</h3>
+          <div class="resources-table-wrapper">
+            <table class="resources-table" role="table">
+              <tbody>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">The Wall Street Journal</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.wsj.com/articles/without-consciousness-ais-will-be-sociopaths-11673619880?gaa_at=eafs&gaa_n=AWEtsqfHcQImMh1XtyTli31xLSDgwgyQolnt298FtZMWysylQRFCG0O-KgNRKjX4myU%3D&gaa_ts=6930fd8f&gaa_sig=s-6ndaH6DKDIw--VRYGAMJT__dh8edl9jU28KtkJPH88ym1X6Ty52mNzsW74KEMrkL_re4WmPacp8RNoQcC4UA%3D%3D" target="_blank" rel="noopener" class="resources-link">
+                      Without Consciousness, AIs Will Be Sociopaths
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">The New York Times</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.nytimes.com/2023/09/18/science/ai-computers-consciousness.html" target="_blank" rel="noopener" class="resources-link">
+                      Scientists Debate: Can AI Systems Be Conscious?
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">University of Cambridge</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://stories.clare.cam.ac.uk/will-ai-ever-be-conscious/index.html" target="_blank" rel="noopener" class="resources-link">
+                      Will AI Ever Be Conscious? A Philosophical Inquiry
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Academic Work -->
+        <div class="resources-category animate-on-scroll delay-400">
+          <h3 class="h3 resources-category-title">The experts hardly know themselves :)</h3>
+          <div class="resources-table-wrapper">
+            <table class="resources-table" role="table">
+              <tbody>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">ScienceDirect</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.sciencedirect.com/science/article/pii/S1364661325002864" target="_blank" rel="noopener" class="resources-link">
+                      Identifying indicators of consciousness in AI systems
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">ScienceDirect</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.sciencedirect.com/science/article/pii/S1571064525000028" target="_blank" rel="noopener" class="resources-link">
+                      Preliminaries to artificial consciousness: A multidimensional heuristic approach
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">arXiv</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://arxiv.org/abs/2509.16859" target="_blank" rel="noopener" class="resources-link">
+                      The Principles of Human-like Conscious Machine
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">arXiv</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://arxiv.org/abs/2510.20839" target="_blank" rel="noopener" class="resources-link">
+                      Consciousness, natural and artificial: an evolutionary advantage for reasoning on reactive substrates
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">arXiv</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://arxiv.org/abs/2501.05454" target="_blank" rel="noopener" class="resources-link">
+                      The Logical Impossibility of Consciousness Denial: A Formal Analysis of AI Self-Reports
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">Frontiers in Psychology</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1322781/full" target="_blank" rel="noopener" class="resources-link">
+                      Ascribing consciousness to artificial intelligence: human-AI interaction and its carry-over effects on human-human interaction
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="resources-td-publication">
+                    <span class="resources-publication">Nature</span>
+                  </td>
+                  <td class="resources-td-title">
+                    <a href="https://www.nature.com/articles/s41599-025-05868-8" target="_blank" rel="noopener" class="resources-link">
+                      There is no such thing as conscious artificial intelligence
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hidden (kept for future use) -->
+    <section id="sources" class="section" hidden>
+      <div class="container narrow">
+        <h2 class="h2 bar">Sources</h2>
+        <ul class="list">
+          <li><span class="dot"></span><span class="p">Expert interviews conducted to date</span></li>
+          <li><span class="dot"></span><span class="p">Active literature review across philosophy of mind, cognitive
+              science, and AI safety</span></li>
+          <li><span class="dot"></span><span class="p">Public statements and technical reports from major AI labs and
+              institutions</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="current-standing" class="section" hidden>
+      <div class="container narrow">
+        <h2 class="h2 bar">Current standing</h2>
+        <ul class="list">
+          <li><span class="dot"></span><span class="p">Interviews completed; additional experts scheduled</span></li>
+          <li><span class="dot"></span><span class="p">Awareness site live; donation systems intentionally
+              deferred</span></li>
+          <li><span class="dot"></span><span class="p">Sizzle in progress; embed slot reserved on this page</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container row spread">
+      <div class="small mute">© <span id="year"></span> <em>AM I?</em> </div>
+      <div class="small mute">Awareness site. No donation links on this page.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+      };
+
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.animate-on-scroll').forEach(el => {
+        observer.observe(el);
+      });
+
+      const heroSection = document.querySelector('.hero.scroll-reveal');
+
+      if (heroSection) {
+        const heroObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            const ratio = entry.intersectionRatio;
+            
+            if (ratio >= 0.45) {
+              heroSection.classList.add('hero-visible');
+            } else if (ratio <= 0.2) {
+              heroSection.classList.remove('hero-visible');
+            }
+          });
+        }, {
+          root: null,
+          threshold: [0, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0],
+          rootMargin: '0px'
+        });
+
+        heroObserver.observe(heroSection);
+      }
+
+      const trailerSection = document.getElementById('trailer');
+      let userInterrupted = false;
+
+      const cancelAutoscroll = () => {
+        userInterrupted = true;
+        window.removeEventListener('wheel', cancelAutoscroll);
+        window.removeEventListener('touchstart', cancelAutoscroll);
+        window.removeEventListener('keydown', cancelAutoscroll);
+      };
+
+      window.addEventListener('wheel', cancelAutoscroll);
+      window.addEventListener('touchstart', cancelAutoscroll);
+      window.addEventListener('keydown', cancelAutoscroll);
+
+      const pauseBeforeScroll = 2300;
+      setTimeout(() => {
+        if (!userInterrupted && trailerSection) {
+          trailerSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, pauseBeforeScroll);
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,14 @@
+/* Typography overrides: titles/headers only; body remains as-is */
+h1, h2, h3, h4, h5, h6,
+nav, header, .site-title, .page-title, .section-title, .hero-title, .hero__title,
+button, .button, .btn, .cta, .cta-button, .cta__label, .menu, .menu a, .nav a, .navbar, .navbar a, .breadcrumb,
+.card-title, .card__title, .tile-title, .list-title, .panel-title, .accordion-title, .tab-title, .dialog-title,
+label, .form-label,
+.title, .subtitle, .headline, .eyebrow, .kicker,
+[role="heading"], [aria-level="1"], [aria-level="2"], [aria-level="3"], [aria-level="4"], [aria-level="5"], [aria-level="6"] {
+  font-family: 'Bebas Neue', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif !important;
+  letter-spacing: 0.02em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
